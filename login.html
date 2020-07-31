@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Nush_clothing</title>
+    <!-- CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!-- css  -->
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"> <img src="img/nav bar.png" alt="" class="logo"></a>
+            <button class="navbar-toggler " data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item"><a href="NewArrivals.html" class="nav-link"><i class="fa fa-rocket"></i>New
+                            Arrivals</a></li>
+                    <li class="nav-item"><a href="men.html" class="nav-link"><i class="fa fa-male"></i>Men</a></li>
+                    <li class="nav-item"><a href="women.html" class="nav-link"><i class="fa fa-female"></i>WoMen</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-fw fa-user"></i>My Account</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- login -->
+    <div class="d-flex justify-content-center align-items-center login-container">
+        <form class="login-form text-center">
+            <h1 class="mb-5 font-weight-light text-uppercase">Login</h1>
+            <div class="form-group">
+                <input type="text" class="form-control rounded-pill form-control-lg" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control rounded-pill form-control-lg" placeholder="Password">
+            </div>
+            <div class="forgot-link form-group d-flex justify-content-between align-items-center">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="remember">
+                    <label class="form-check-label" for="remember">Remember Password</label>
+                </div>
+                <a href="#">Forgot Password?</a>
+            </div>
+            <button type="button" class="btn btn-custom btn-block text-uppercase rounded-pill btn-lg">Login</button>
+            <p class="mt-3 font-weight-normal">Don't have an account <a href="#"><strong>Register now</strong></a></p>
+            <div class="g-signin2"></div>
+        </form>
+    </div>
+
+
+
+    <!-- ------------------------------------------------------------------------- -->
+
+    <footer>
+        <div class="container">
+            <div class="row p-5">
+                <div class="col-md text-center text-md-left">
+                    <ul class="list-group">
+                        <h6 class="text-strong"><strong>Company</strong></h6>
+                        <li>About us</li>
+                        <li>Team</li>
+                        <li>Careers</li>
+                        <li>Food Garage Blog</li>
+                    </ul>
+                </div>
+
+                <div class="col-md pt-5 pt-md-0 text-center text-md-left">
+                    <ul class="list-group">
+                        <h6 class="text-strong"><strong>Contacts</strong></h6>
+                        <li>Help and Support</li>
+                        <li>Partners with us</li>
+                        <li>Ride with us</li>
+                    </ul>
+                </div>
+
+                <div class="col-md pt-5 pt-md-0 text-center text-md-left">
+                    <ul class="list-group">
+                        <h6 class="text-strong"><strong>Legal</strong></h6>
+                        <li>Terms and conditions</li>
+                        <li>Refund and Cancellation</li>
+                        <li>Privacy Policy</li>
+                        <li>Cookie Policy</li>
+                        <li>Offer Terms</li>
+                    </ul>
+                </div>
+
+                <div class="col-md pt-5 pt-md-0 text-center">
+                    <img src="img/nav bar.png" alt="gplay" class="img-fluid rounded app_download">
+                </div>
+            </div>
+
+            <div class="row p-3 top-border">
+                <div class="col-md text-center text-md-left">Copyright © 2020 by Food Garage. All rights reserved.</div>
+                <div class="col-md text-center text-md-right">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fab fa-facebook-f"></a></i></li>
+                        <li><a href="#"><i class="fab fa-pinterest"></a></i></li>
+                        <li><a href="#"><i class="fab fa-instagram"></a></i></li>
+                        <li><a href="#"><i class="fab fa-twitter"></a></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

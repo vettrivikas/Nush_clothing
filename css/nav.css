@@ -1,0 +1,30 @@
+html,
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+.section-title h2 {
+    font-weight: 500;
+    font-family: 'Lobster', cursive;
+}
+
+/* Header */
+
+.logo {
+    height: 50px;
+}
+
+.nav-item a:hover {
+    animation: tada;
+    animation-duration: 1.5s;
+}
+
+.nav-item .fa {
+    margin-right: 7px;
+}
+
+.nav-item a {
+    margin-right: 15px;
+}
