@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=DM+Serif+Display&family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
 html,
 body {
     margin: 0;
@@ -28,3 +32,83 @@ body {
 .nav-item a {
     margin-right: 15px;
 }
+
+
+
+/* men page  */
+.collection {
+    background: #f3f3f3;
+  }
+  
+  .collection-w3layouts {
+    padding-top: 3em;
+  }
+  .title {
+    font-size: 41px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  
+.fashion-collet-txt h5 {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .fashion-collet-txt h6,
+  .newsletter h4 {
+    font-size: 34px;
+    color: #ff6ad1;
+    font-weight: 600;
+  }
+ 
+  .fashion-collet-txt h5 {
+    font-size: 3.2em;
+  }
+  
+  .counter-number {
+    background: #3a8f96;
+    padding: 7em 2em;
+  }
+  .adv-text {
+    min-height: 245px;
+  }
+
+  .adv-text {
+    background: url(../img/Men/banner-center.png) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 260px;
+  }
+
+  .ser-fashion-grid {
+    padding: 1.5em 1.5em;
+    background: #efefef;
+    box-shadow: 1px 0px 7px #d2d2d2;
+  }
+
+  .service-grid-wthree:nth-child(3) {
+    margin-top: 17px;
+  }
+  .service-grid-wthree:nth-child(2) {
+    margin-top: 20px;
+  }
+
+
+  .about-icon span {
+    font-size: 25px;
+  }
+
+  .about-icon span {
+    font-size: 40px;
+    color: #3a8f96;
+  }
+
+  .collection .advertise-count {
+    font-family: 'Belleza', sans-serif;
+  }
+  
+  
