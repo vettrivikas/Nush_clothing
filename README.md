@@ -2,4 +2,4 @@
 
 website : -
 
-       https://vettrivikas.github.io/Nush_clothing/
+       https://vettrivikas.github.io/Nush_clothing/index.html
